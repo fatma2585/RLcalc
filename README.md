@@ -34,13 +34,13 @@ The package is installable on Python 3.x and can be installed using:
 ```
 # To calculate the Radio Loudness paramater:
 
-from RL_calcu import RLoud
+from RLcalc import RLoud
 R = RLoud(Z,R20CM,L2500,R_slope=-0.5)
 
 
 # To calculate the Radio Lumionsity:
 
-from RL_calcu import RLum
+from RLcalc import RLum
 Lum = RLum(Z,R20CM,R_slope=-0.5)
 
 ```
