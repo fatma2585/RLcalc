@@ -8,7 +8,7 @@
 
 ## Introduction
 
-This package used to calcualte the Radio Loudness paramater of galaxies or Quasars, whcih is the radio between the radio flux to optical flux.
+This package used to calcualte the Radio Loudness paramater and radio luminosity in different referance frames of the radio fluxes for galaxies or Quasars. The radio loudness parmter is defined as the radio between the radio flux to optical flux.
 
 
 ## Motivation
