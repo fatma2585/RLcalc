@@ -2,7 +2,7 @@
 [![Made with NumPy](https://img.shields.io/badge/Made%20with-NumPy-blue.svg)](https://numpy.org/)
 [![PyPI version](https://badge.fury.io/py/bhml.svg)](https://pypi.org/project/bhml/)
 [![image](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![image alt](https://github.com/fatma2585/bhml/blob/c070588a1d1c3b5a28d328fec10297dbd04f10ab/CygA-Color_lo.jpg)
+[![image alt](https://github.com/fatma2585/RLcalc/blob/main/CygA-Color_lo.jpg)
 
 
 ## Introduction
