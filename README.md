@@ -30,13 +30,15 @@ The package is installable on Python 3.x and can be installed using:
 
 ## Use Example and Description of Function
 
-To calculate the Radio Loudness paramater:
+
 ```
+# To calculate the Radio Loudness paramater:
+
 from RL_calcu import RLoud
 R = RLoud(Z,R20CM,L2500,R_slope=-0.5)
 
 
-To calculate the Radio Lumionsity:
+# To calculate the Radio Lumionsity:
 
 from RL_calcu import RLum
 Lum = RLum(Z,R20CM,R_slope=-0.5)
