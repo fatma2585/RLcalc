@@ -22,16 +22,23 @@ However, we keep it as a free paramter so the user could adjusted based on their
 
 The package is installable on Python 3.x and can be installed using:
 
-```pip install bhml```
+```pip install RLcalcu```
 
 # How to cite
 
-[![DOI](https://zenodo.org/badge/824626583.svg)](https://doi.org/10.5281/zenodo.15914046)
 
 
 ## Use Example and Description of Function
 
-The mass_luminosity_function (SMBH) package includes some functions, to load the data and then calculate and plot the mass-luminosity function for quasars to know its evolution over cosmic time.
-Here's an example of how to use it:
+To calculate the Radio Loudness paramater:
+
+from RL_calcu import RLoud
+R = RLoud(Z,R20CM,L2500,slope)
+
+
+To calculate the Radio Lumionsity:
+
+from RL_calcu import RLum
+Lum = RLum(Z,R20CM,slope)
 
 ```
