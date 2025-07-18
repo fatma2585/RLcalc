@@ -1,3 +1,3 @@
-from RL_calcu import RLoud
-from RL_calcu import RLum
+from RLcalc import RLoud
+from RLcalc import RLum
 
