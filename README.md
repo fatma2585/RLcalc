@@ -1,5 +1,4 @@
-# bhml  (black hole mass-luminosity)
-[![A rectangular badge, half black half purple containing the text made at Code Astro](https://img.shields.io/badge/Made%20at-Code/Astro-blueviolet.svg)](https://semaphorep.github.io/codeastro/)
+# RLcalcu  (Radio Loudness Calculator)
 [![Made with NumPy](https://img.shields.io/badge/Made%20with-NumPy-blue.svg)](https://numpy.org/)
 [![Uses SciPy](https://img.shields.io/badge/Uses-SciPy-red.svg)](https://www.scipy.org/)
 [![PyPI version](https://badge.fury.io/py/bhml.svg)](https://pypi.org/project/bhml/)
@@ -8,12 +7,11 @@
 
 ## Introduction
 
-This package is used to constrain huge Astronomical catalogs/surveys to subsets based on redshift ranges to study the evolution of objects and make subsets based on their masses or any parameter we want to study. Furthermore, we visualize these subsets with their mean points.
+This package used to calcualte the Radio Loudness parmater of gaalxies or Quasars, whcih is the radio between the radio flux to optical flux.
 
 
 ## Motivation
 
-The mass_luminosity_function is a Python package for calculating the mass-luminosity function of quasars. The mass-luminosity function is an important statistical relationship between the masses of supermassive black holes (SMBHs) at galaxies' centers and the quasars' luminosities.
 
 
 ## Installation
