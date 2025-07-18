@@ -31,7 +31,7 @@ The package is installable on Python 3.x and can be installed using:
 ## Use Example and Description of Function
 
 To calculate the Radio Loudness paramater:
-
+```
 from RL_calcu import RLoud
 R = RLoud(Z,R20CM,L2500,R_slope=-0.5)
 
