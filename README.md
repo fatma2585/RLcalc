@@ -1,4 +1,4 @@
-# RLcalcu  (Radio Loudness Calculator)
+# roud  (Radio Loudness Calculator)
 [![Made with NumPy](https://img.shields.io/badge/Made%20with-NumPy-blue.svg)](https://numpy.org/)
 [![PyPI version](https://badge.fury.io/py/bhml.svg)](https://pypi.org/project/bhml/)
 [![image](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -22,7 +22,7 @@ However, we keep it as a free parameter so the user can adjust based on their st
 
 The package is installable on Python 3.x and can be installed using:
 
-```pip install RLcalcu```
+```pip install roud```
 
 # How to cite
 
@@ -34,13 +34,13 @@ The package is installable on Python 3.x and can be installed using:
 ```
 # To calculate the Radio Loudness paramater:
 
-from RLcalc import RLoud
+from roud import RLoud
 R = RLoud(Z,R20CM,L2500,R_slope=-0.5)
 
 
 # To calculate the Radio Lumionsity:
 
-from RLcalc import RLum
+from roud import RLum
 Lum = RLum(Z,R20CM,R_slope=-0.5)
 
 ```
