@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]  # ADDED WHEEL
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "roud"
+version = "1.0.0"
+description = "Calculate Radio Loudness parameters and luminosity for quasars"
+readme = "README.md"
+authors = [{ name = "Fatma Shaban", email = "fatma.shaban0@gmail.com" }]
+license = { text = "MIT" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Astronomy"
+]
+requires-python = ">=3.7"  # CHANGED TO 3.7 (common minimum)
+dependencies = [
+    "astropy",
+    "numpy"
+]
+
+[project.urls]
+Homepage = "https://github.com/fatma2585/roud"
+
+# CRITICAL SECTION - TELLS SETUPTOOLS WHERE YOUR CODE IS
+[tool.setuptools.packages.find]
+where = ["."]  # SEARCH IN CURRENT DIRECTORY
+include = ["roud*"]  # INCLUDE ALL FILES STARTING WITH 'roud'
