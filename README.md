@@ -8,7 +8,7 @@
 
 ## Introduction
 
-This package is used to calculate the Radio Loudness parameter and radio luminosity in different reference frames for the radio fluxes of quasars. The radio loudness parameter is defined as the ratio between the radio flux and optical flux [R = (f_6cm/f_2500A)].
+This package calculates the Radio Loudness parameter and radio luminosity in different reference frames for the radio fluxes of quasars. The radio loudness parameter is defined as the ratio between the radio flux and optical flux [R = (f_6cm/f_2500A)].
 
 
 ## Motivation
