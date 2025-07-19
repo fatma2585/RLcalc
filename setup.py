@@ -7,8 +7,8 @@ with open('README.md', 'r', encoding='utf-8') as f:
 
 
 setup(
-    name='RK_calcu',
-    version="1.1.0",
+    name='roud',
+    version="1.0.0",
     packages=find_packages(),
     install_requires=["numpy>=1.24.4", "scipy>=1.11.1", "astropy>=5.3.3"],
   # Add your dependencies here
